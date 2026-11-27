@@ -7,7 +7,7 @@
   <title>Contact Us — Melted</title>
   <meta name="description"
     content="Get in touch with Melted. Order on WhatsApp, call us, or visit our store in Rajkot — we'd love to hear from you.">
-  <meta name="theme-color" content="#2B1810">
+  <meta name="theme-color" content="#1E0F08">
   <link rel="canonical" href="https://melted-chocolates.netlify.app/contact">
 
   <!-- Open Graph / Facebook -->
@@ -17,14 +17,14 @@
   <meta property="og:title" content="Contact Us — Melted">
   <meta property="og:description"
     content="Get in touch with Melted. Order on WhatsApp, call us, or visit our store in Rajkot — we'd love to hear from you.">
-  <meta property="og:image" content="https://melted-chocolates.netlify.app/images/products/almonds-chocolate.jpg">
+  <meta property="og:image" content="https://melted-chocolates.netlify.app/images/products/almonds-kesar.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Contact Us — Melted">
   <meta name="twitter:description"
     content="Get in touch with Melted. Order on WhatsApp, call us, or visit our store in Rajkot — we'd love to hear from you.">
-  <meta name="twitter:image" content="https://melted-chocolates.netlify.app/images/products/almonds-chocolate.jpg">
+  <meta name="twitter:image" content="https://melted-chocolates.netlify.app/images/products/almonds-kesar.jpg">
 
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" sizes="48x48">
@@ -39,7 +39,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display:ital@0;1&display=swap"
     rel="stylesheet">
 
   <!-- Stylesheet -->
@@ -48,12 +48,8 @@
 
 <body>
 
-  <!-- Skip-to-content -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <!-- ============================================================
-       NAVIGATION
-       ============================================================ -->
   <header class="site-header site-header--solid" id="site-header">
     <nav class="nav" aria-label="Primary navigation">
       <a href="index.html" class="nav__logo" aria-label="Melted — Home">
@@ -65,7 +61,7 @@
         <span class="nav__logo-text">Melted</span>
       </a>
 
-      <button class="nav__hamburger" id="nav-toggle" type="button" aria-label="Toggle navigation menu"
+      <button class="nav__hamburger" id="nav-toggle" type="button" aria-label="Open navigation menu"
         aria-expanded="false" aria-controls="nav-menu">
         <span class="nav__hamburger-line"></span>
         <span class="nav__hamburger-line"></span>
@@ -73,19 +69,16 @@
       </button>
 
       <ul class="nav__menu" id="nav-menu" role="list">
+        <li>
+          <button class="nav__close" id="nav-close" type="button" aria-label="Close navigation menu">&times;</button>
+        </li>
         <li><a href="index.html" class="nav__link">Home</a></li>
         <li><a href="products.html" class="nav__link">Products</a></li>
-        <li><a href="index.html#story" class="nav__link">Our Story</a></li>
+        <li><a href="index.html#brand-story" class="nav__link">Our Story</a></li>
         <li><a href="contact.html" class="nav__link nav__link--active">Contact Us</a></li>
         <li class="nav__menu-cta">
           <a href="https://wa.me/918140000244?text=Hi!%20I'd%20like%20to%20place%20an%20order." target="_blank"
-            rel="noopener noreferrer" class="btn btn--whatsapp nav__whatsapp-btn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path
-                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-              <path
-                d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.527 5.86L0 24l6.335-1.652A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.91 0-3.727-.5-5.33-1.377l-.38-.222-3.76.98.998-3.648-.248-.394A9.81 9.81 0 012.182 12c0-5.415 4.403-9.818 9.818-9.818S21.818 6.585 21.818 12 21.818z" />
-            </svg>
+            rel="noopener noreferrer" class="btn btn--whatsapp">
             Order on WhatsApp
           </a>
         </li>
@@ -93,170 +86,153 @@
     </nav>
   </header>
 
-  <!-- ============================================================
-       MAIN CONTENT
-       ============================================================ -->
   <main id="main-content">
 
-    <!-- Page header -->
+    <!-- Page Hero (dark) -->
     <section class="page-header">
       <div class="container">
-        <h1 class="page-header__title reveal">Contact Us</h1>
-        <p class="page-header__subtitle reveal">
-          Questions, orders, or just want to chat about chocolate?
-          We&rsquo;re all ears.
+        <h1 class="page-header__title">Contact Us</h1>
+        <p class="page-header__subtitle">
+          Questions, bulk orders, or just want to say hi? We&rsquo;d love to hear from you.
         </p>
       </div>
     </section>
 
-    <!-- ======================== CONTACT DETAILS ======================== -->
-    <section class="contact-page" id="contact">
+    <!-- Section 1 (light: cream) — Get in touch + Socials -->
+    <section class="section section--light" aria-labelledby="get-in-touch-heading">
       <div class="container">
-        <div class="contact-page__grid">
+        <div class="contact-grid">
+          <div>
+            <h2 class="contact-block__heading" id="get-in-touch-heading">Get in touch</h2>
 
-          <!-- Contact info card -->
-          <div class="contact-card reveal">
-            <h2 class="contact-card__heading">Reach Us</h2>
-
-            <div class="contact-card__item">
-              <svg class="contact-card__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <div class="contact-row">
+              <svg class="contact-row__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path
                   d="M22 16.92V19.92C22 20.48 21.56 20.93 21 20.97C20.64 21 20.29 21 20 21C10.61 21 3 13.39 3 4C3 3.71 3 3.36 3.03 3C3.07 2.44 3.52 2 4.08 2H7.08C7.56 2 7.97 2.34 8.05 2.81C8.14 3.38 8.3 3.93 8.52 4.46L7.02 5.97C8.27 8.81 10.55 11.27 13.54 12.98L15.05 11.47C15.58 11.69 16.13 11.86 16.7 11.95C17.16 12.03 17.5 12.44 17.5 12.92"
                   stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
               <div>
                 <strong>Phone</strong>
-                <p><a href="tel:+918140000244">+91 81400 00244</a></p>
+                <a href="tel:+918140000244">+91 81400 00244</a>
               </div>
             </div>
 
-            <div class="contact-card__item">
-              <svg class="contact-card__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path
-                  d="M12 2C6.48 2 2 6 2 10.54C2 13.28 3.23 15.71 5.16 17.34L4 22L8.6 19.9C9.66 20.28 10.8 20.5 12 20.5C17.52 20.5 22 16.5 22 12C22 6 17.52 2 12 2Z"
-                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              <div>
-                <strong>WhatsApp</strong>
-                <p><a href="https://wa.me/918140000244" target="_blank" rel="noopener noreferrer">+91 81400 00244</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="contact-card__item">
-              <svg class="contact-card__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <div class="contact-row">
+              <svg class="contact-row__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M21 5L12 13L3 5M3 5V19H21V5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
               <div>
                 <strong>Email</strong>
-                <p><a href="mailto:vrajfoods01@gmail.com">vrajfoods01@gmail.com</a></p>
+                <a href="mailto:vrajfoods01@gmail.com">vrajfoods01@gmail.com</a>
               </div>
             </div>
 
-            <!-- Social media links -->
-            <div class="contact-card__social">
-              <strong>Follow Us</strong>
-              <div class="contact-card__social-icons">
-                <a href="https://www.instagram.com/melted24" target="_blank" rel="noopener noreferrer"
-                  aria-label="Instagram">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                    <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5" />
-                    <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5" />
-                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
-                  </svg>
-                </a>
-                <a href="https://x.com/vraj_foods" target="_blank" rel="noopener noreferrer" aria-label="X">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                    <path d="M4 4L10.5 12.5L4 20H6L11.5 13.8L16 20H20L13.2 11L19.3 4H17.3L12.2 9.7L8 4H4Z"
-                      stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                  </svg>
-                </a>
-                <a href="https://www.facebook.com/share/1JFQ9zrTHv/" target="_blank" rel="noopener noreferrer"
-                  aria-label="Facebook">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                    <path
-                      d="M18 2H15C13.3431 2 12 3.34315 12 5V8H9V12H12V22H16V12H19L20 8H16V5C16 4.44772 16.4477 4 17 4H20V2H18Z"
-                      stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
-                </a>
-              </div>
-            </div>
+            <a href="https://wa.me/918140000244?text=Hi!%20I'd%20like%20to%20place%20an%20order." target="_blank"
+              rel="noopener noreferrer" class="btn btn--whatsapp">
+              Order on WhatsApp
+            </a>
           </div>
 
-          <!-- Order / CTA card -->
-          <div class="contact-cta reveal">
-            <div class="contact-cta__inner">
-              <h2 class="contact-cta__heading">Ready to Order?</h2>
-              <p class="contact-cta__text">
-                The fastest way to place an order is through WhatsApp.
-                Tap the button below, tell us what you&rsquo;d like,
-                and we&rsquo;ll sort it out.
-              </p>
-              <a href="https://wa.me/918140000244?text=Hi!%20I'd%20like%20to%20place%20an%20order." target="_blank"
-                rel="noopener noreferrer" class="btn btn--whatsapp btn--lg">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path
-                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-                  <path
-                    d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.527 5.86L0 24l6.335-1.652A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.91 0-3.727-.5-5.33-1.377l-.38-.222-3.76.98.998-3.648-.248-.394A9.81 9.81 0 012.182 12c0-5.415 4.403-9.818 9.818-9.818S21.818 6.585 21.818 12 17.415 21.818 12 21.818z" />
+          <div>
+            <h2 class="contact-block__heading">Follow us</h2>
+            <div class="social-list">
+              <a href="https://www.instagram.com/melted24" target="_blank" rel="noopener noreferrer" class="social-row">
+                <svg class="social-row__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5" />
+                  <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5" />
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
                 </svg>
-                Order on WhatsApp
+                <span class="social-row__meta">
+                  <span class="social-row__name">Instagram</span>
+                  <span class="social-row__handle">@melted24</span>
+                </span>
               </a>
 
-              <p class="contact-cta__note">
-                Bulk orders, gifting, and custom requests &mdash;
-                just ask!
-              </p>
+              <a href="https://x.com/vraj_foods" target="_blank" rel="noopener noreferrer" class="social-row">
+                <svg class="social-row__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 4L10.5 12.5L4 20H6L11.5 13.8L16 20H20L13.2 11L19.3 4H17.3L12.2 9.7L8 4H4Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+                <span class="social-row__meta">
+                  <span class="social-row__name">X</span>
+                  <span class="social-row__handle">@vraj_foods</span>
+                </span>
+              </a>
+
+              <a href="https://www.facebook.com/share/1JFQ9zrTHv/" target="_blank" rel="noopener noreferrer"
+                class="social-row">
+                <svg class="social-row__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M18 2H15C13.3431 2 12 3.34315 12 5V8H9V12H12V22H16V12H19L20 8H16V5C16 4.44772 16.4477 4 17 4H20V2H18Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span class="social-row__meta">
+                  <span class="social-row__name">Facebook</span>
+                  <span class="social-row__handle">Melted Chocolates</span>
+                </span>
+              </a>
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
-    <!-- ======================== VISIT OUR STORE (MAP) ======================== -->
-    <section class="store-location" id="store-location">
+    <!-- Section 2 (dark: cocoa-mid) — Store & Map -->
+    <section class="section section--dark-mid" id="store-location" aria-labelledby="store-heading">
       <div class="container">
-        <div class="store-location__inner reveal">
-          <div class="section-header">
-            <h2 class="section-title">Our only official store</h2>
+        <div class="contact-store__grid">
+          <div>
+            <h2 class="contact-store__heading" id="store-heading">Our only official store</h2>
+            <address class="contact-store__address">
+              Melted&reg; &mdash; Chocolate House<br>
+              Shop No 21, Haridwar Habitat<br>
+              Near Shyamal Sky life, 80 Feet Rd<br>
+              Ambika Township, Rajkot, Gujarat 360005
+            </address>
+            <p class="contact-store__hours">Open daily: 9:00 AM &ndash; 9:30 PM</p>
+            <a href="https://maps.app.goo.gl/YGpKH35N9MbniUks7" target="_blank" rel="noopener noreferrer"
+              class="btn btn--primary">Get directions</a>
           </div>
 
-          <div class="store-location__card">
-            <div class="store-location__info">
-              <div class="store-location__address-block">
-                <svg class="store-location__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  aria-hidden="true">
-                  <path
-                    d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z"
-                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <address class="store-location__address">
-                  Shop No 21, Haridwar Habitat, Near Shyamal Sky life, 80 Feet Rd, Ambika Township, Rajkot, Gujarat
-                  360005
-                </address>
-              </div>
+          <div class="contact-store__map-wrap">
+            <iframe
+              src="https://www.google.com/maps?q=Chocolate+House,+Haridwar+Habitat,+80+Feet+Rd,+Ambika+Township,+Rajkot&amp;output=embed"
+              title="Melted store location" width="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              class="contact-store__map">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
 
-              <div class="store-location__actions">
-                <a href="https://maps.app.goo.gl/YGpKH35N9MbniUks7" target="_blank" rel="noopener noreferrer"
-                  class="btn btn--primary">
-                  Get directions
-                </a>
-                <a href="https://maps.app.goo.gl/YGpKH35N9MbniUks7" target="_blank" rel="noopener noreferrer"
-                  class="btn btn--outline">
-                  Open in Google Maps
-                </a>
-              </div>
-            </div>
+    <!-- Section 3 (light: cream) — Stay in the Loop -->
+    <section class="section section--light" id="newsletter" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <div class="newsletter-box">
+          <h2 class="newsletter-box__heading" id="newsletter-heading">Stay in the Loop</h2>
+          <p class="newsletter-box__text">
+            Get updates on new flavours, special offers, and tasty news.
+          </p>
 
-            <div class="store-location__map-wrap">
-              <iframe
-                src="https://www.google.com/maps?q=Chocolate+House,+Haridwar+Habitat,+80+Feet+Rd,+Ambika+Township,+Rajkot&amp;output=embed"
-                title="Melted store location" width="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                class="store-location__map">
-              </iframe>
-            </div>
+          <form class="newsletter__form" id="newsletter-form" novalidate>
+            <input type="checkbox" name="botcheck" class="newsletter__honeypot" tabindex="-1" autocomplete="off">
+            <label for="newsletter-email" class="visually-hidden">Email address</label>
+            <input type="email" id="newsletter-email" name="email" class="newsletter__input"
+              placeholder="your@email.com" required autocomplete="email" aria-describedby="newsletter-status">
+            <button type="submit" class="btn btn--primary">Subscribe</button>
+          </form>
+
+          <p class="newsletter__privacy-note">
+            We&rsquo;ll only email you about new flavours and offers. Unsubscribe anytime.
+          </p>
+          <p class="newsletter__status" id="newsletter-status" role="status" aria-live="polite"></p>
+
+          <div class="newsletter__secondary">
+            <a href="https://wa.me/918140000244" target="_blank" rel="noopener noreferrer"
+              class="btn btn--whatsapp">
+              Get updates on WhatsApp
+            </a>
           </div>
         </div>
       </div>
@@ -264,13 +240,9 @@
 
   </main>
 
-  <!-- ============================================================
-       FOOTER
-       ============================================================ -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer__grid">
-
         <div class="footer__brand">
           <a href="index.html" class="footer__logo" aria-label="Melted — Home">
             <picture>
@@ -279,57 +251,43 @@
                 loading="lazy" decoding="async">
             </picture>
           </a>
-          <p class="footer__tagline">
-            Tasty chocolate for every mood and every moment.
-          </p>
+          <p class="footer__tagline">Rich flavours. Honest prices. Made in Rajkot.</p>
         </div>
 
         <div class="footer__links">
-          <h3 class="footer__heading">Quick Links</h3>
+          <h3 class="footer__heading">Quick links</h3>
           <ul role="list">
             <li><a href="index.html">Home</a></li>
             <li><a href="products.html">Products</a></li>
+            <li><a href="index.html#brand-story">Our Story</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
           </ul>
         </div>
 
-        <div class="footer__contact">
-          <h3 class="footer__heading">Contact Us</h3>
-          <ul role="list">
-            <li><a href="tel:+918140000244">+91 81400 00244</a></li>
-            <li><a href="mailto:vrajfoods01@gmail.com">vrajfoods01@gmail.com</a></li>
-            <li><a href="https://wa.me/918140000244" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
-            <li>Shop No 21, Haridwar Habitat, Near Shyamal Sky life, 80 Feet Rd, Ambika Township, Rajkot, Gujarat 360005
-            </li>
-            <li><a href="https://maps.app.goo.gl/YGpKH35N9MbniUks7" target="_blank" rel="noopener noreferrer"
-                class="footer__directions">Get directions &rarr;</a></li>
-          </ul>
-        </div>
-
-        <div class="footer__social">
-          <h3 class="footer__heading">Follow Us</h3>
+        <div class="footer__find">
+          <h3 class="footer__heading">Find us</h3>
+          <p class="footer__address">
+            Shop No 21, Haridwar Habitat, 80 Feet Rd, Ambika Township, Rajkot, Gujarat 360005
+          </p>
           <div class="footer__social-icons">
             <a href="https://www.instagram.com/melted24" target="_blank" rel="noopener noreferrer"
               aria-label="Instagram">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5" />
                 <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5" />
                 <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
               </svg>
             </a>
             <a href="https://x.com/vraj_foods" target="_blank" rel="noopener noreferrer" aria-label="X">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M4 4L10.5 12.5L4 20H6L11.5 13.8L16 20H20L13.2 11L19.3 4H17.3L12.2 9.7L8 4H4Z"
                   stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
               </svg>
             </a>
             <a href="https://www.facebook.com/share/1JFQ9zrTHv/" target="_blank" rel="noopener noreferrer"
               aria-label="Facebook">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path
                   d="M18 2H15C13.3431 2 12 3.34315 12 5V8H9V12H12V22H16V12H19L20 8H16V5C16 4.44772 16.4477 4 17 4H20V2H18Z"
                   stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -337,30 +295,16 @@
             </a>
           </div>
         </div>
-
       </div>
 
       <div class="footer__bottom">
-        <p>&copy; 2026 Melted. All rights reserved. &middot; <a href="privacy.html" class="footer__privacy-link">Privacy
-            Policy</a></p>
+        <p>&copy; 2024 Melted&reg; Chocolates. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-  <!-- Floating WhatsApp button (mobile only) -->
-  <a href="https://wa.me/918140000244" target="_blank" rel="noopener noreferrer" class="floating-whatsapp"
-    aria-label="Order on WhatsApp">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path
-        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-      <path
-        d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.527 5.86L0 24l6.335-1.652A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.91 0-3.727-.5-5.33-1.377l-.38-.222-3.76.98.998-3.648-.248-.394A9.81 9.81 0 012.182 12c0-5.415 4.403-9.818 9.818-9.818S21.818 6.585 21.818 12 21.818z" />
-    </svg>
-    <span class="floating-whatsapp__label">Order</span>
-  </a>
-
-  <script src="js/products.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/newsletter.js"></script>
 </body>
 
 </html>

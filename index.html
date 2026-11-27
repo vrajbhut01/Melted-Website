@@ -4,27 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Melted — Chocolate That Makes You Smile</title>
+  <title>Melted — Chocolate That Makes Every Moment Better</title>
   <meta name="description"
-    content="Melted — Fun, tasty chocolates for sharing, gifting, snacking, and treating yourself. Chocolate covered nuts, bars, and wafer balls at great prices.">
-  <meta name="theme-color" content="#2B1810">
+    content="Melted is a chocolate brand based in Rajkot, Gujarat. Rich flavours, honest prices, made for sharing. Chocolate covered nuts, bars, and wafer balls.">
+  <meta name="theme-color" content="#1E0F08">
   <link rel="canonical" href="https://melted-chocolates.netlify.app/">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Melted">
   <meta property="og:url" content="https://melted-chocolates.netlify.app/">
-  <meta property="og:title" content="Melted — Chocolate That Makes You Smile">
+  <meta property="og:title" content="Melted — Chocolate That Makes Every Moment Better">
   <meta property="og:description"
-    content="Melted — Fun, tasty chocolates for sharing, gifting, snacking, and treating yourself. Chocolate covered nuts, bars, and wafer balls at great prices.">
-  <meta property="og:image" content="https://melted-chocolates.netlify.app/images/products/almonds-chocolate.jpg">
+    content="Melted is a chocolate brand based in Rajkot, Gujarat. Rich flavours, honest prices, made for sharing.">
+  <meta property="og:image" content="https://melted-chocolates.netlify.app/images/products/almonds-kesar.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Melted — Chocolate That Makes You Smile">
+  <meta name="twitter:title" content="Melted — Chocolate That Makes Every Moment Better">
   <meta name="twitter:description"
-    content="Melted — Fun, tasty chocolates for sharing, gifting, snacking, and treating yourself. Chocolate covered nuts, bars, and wafer balls at great prices.">
-  <meta name="twitter:image" content="https://melted-chocolates.netlify.app/images/products/almonds-chocolate.jpg">
+    content="Melted is a chocolate brand based in Rajkot, Gujarat. Rich flavours, honest prices, made for sharing.">
+  <meta name="twitter:image" content="https://melted-chocolates.netlify.app/images/products/almonds-kesar.jpg">
 
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" sizes="48x48">
@@ -39,7 +39,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display:ital@0;1&display=swap"
     rel="stylesheet">
 
   <!-- Stylesheet -->
@@ -48,12 +48,8 @@
 
 <body>
 
-  <!-- Skip-to-content for keyboard / screen-reader users -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <!-- ============================================================
-       NAVIGATION
-       ============================================================ -->
   <header class="site-header" id="site-header">
     <nav class="nav" aria-label="Primary navigation">
       <a href="index.html" class="nav__logo" aria-label="Melted — Home">
@@ -65,7 +61,7 @@
         <span class="nav__logo-text">Melted</span>
       </a>
 
-      <button class="nav__hamburger" id="nav-toggle" type="button" aria-label="Toggle navigation menu"
+      <button class="nav__hamburger" id="nav-toggle" type="button" aria-label="Open navigation menu"
         aria-expanded="false" aria-controls="nav-menu">
         <span class="nav__hamburger-line"></span>
         <span class="nav__hamburger-line"></span>
@@ -73,19 +69,16 @@
       </button>
 
       <ul class="nav__menu" id="nav-menu" role="list">
-        <li><a href="#hero" class="nav__link">Home</a></li>
+        <li>
+          <button class="nav__close" id="nav-close" type="button" aria-label="Close navigation menu">&times;</button>
+        </li>
+        <li><a href="index.html" class="nav__link nav__link--active">Home</a></li>
         <li><a href="products.html" class="nav__link">Products</a></li>
-        <li><a href="#story" class="nav__link">Our Story</a></li>
+        <li><a href="#brand-story" class="nav__link">Our Story</a></li>
         <li><a href="contact.html" class="nav__link">Contact Us</a></li>
         <li class="nav__menu-cta">
           <a href="https://wa.me/918140000244?text=Hi!%20I'd%20like%20to%20place%20an%20order." target="_blank"
-            rel="noopener noreferrer" class="btn btn--whatsapp nav__whatsapp-btn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path
-                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-              <path
-                d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.527 5.86L0 24l6.335-1.652A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.91 0-3.727-.5-5.33-1.377l-.38-.222-3.76.98.998-3.648-.248-.394A9.81 9.81 0 012.182 12c0-5.415 4.403-9.818 9.818-9.818S21.818 6.585 21.818 12 21.818z" />
-            </svg>
+            rel="noopener noreferrer" class="btn btn--whatsapp">
             Order on WhatsApp
           </a>
         </li>
@@ -93,235 +86,153 @@
     </nav>
   </header>
 
-  <!-- ============================================================
-       MAIN CONTENT
-       ============================================================ -->
   <main id="main-content">
 
-    <!-- ======================== HERO ======================== -->
-    <section class="hero" id="hero">
-      <div class="hero__bg" aria-hidden="true"></div>
-      <div class="hero__gloss" aria-hidden="true"></div>
-
-      <!-- Decorative product photos (hidden on mobile) -->
-      <img src="images/products/almonds-chocolate.jpg" alt="" aria-hidden="true"
-        class="hero__product-img hero__product-img--left" width="240" height="320" loading="eager" decoding="async">
-      <img src="images/products/bar-65g-mix-nuts.jpg" alt="" aria-hidden="true"
-        class="hero__product-img hero__product-img--right" width="220" height="293" loading="eager" decoding="async">
-
-      <div class="hero__content container">
-        <h1 class="hero__headline reveal">
-          Chocolate That Makes<br>Every Moment Better
-        </h1>
-        <p class="hero__tagline reveal">
-          Fun flavours, honest ingredients, and prices that let you
-          share without thinking twice.
+    <!-- SECTION 1 — HERO (dark: cocoa) -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero__content">
+        <span class="label-tag">Melted&reg; Chocolates</span>
+        <h1 class="hero__headline">Chocolate That Makes Every Moment Better</h1>
+        <p class="hero__sub">
+          We wanted to make good chocolate accessible to everyone. Rich flavours, honest prices, made for sharing.
         </p>
-        <a href="#products" class="btn btn--gold reveal">Shop Now</a>
+        <div class="hero__actions">
+          <!-- TODO: replace href="#" with the real order link later -->
+          <a href="#" class="btn btn--primary">Order Now</a>
+          <a href="products.html" class="btn btn--secondary">See Our Chocolates</a>
+        </div>
+        <p class="hero__note">Available at our Rajkot store &amp; on WhatsApp</p>
       </div>
 
-      <!-- Drip-shaped SVG divider into marquee -->
-      <div class="drip-divider drip-divider--hero" aria-hidden="true">
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,0 L0,40 Q72,40 144,40 Q180,40 180,58 Q180,90 180,58
-                   Q180,40 288,40 Q432,38 576,40 Q612,40 612,55 Q612,80 612,55
-                   Q612,40 720,40 Q864,42 1008,40 Q1044,40 1044,62 Q1044,100 1044,62
-                   Q1044,40 1152,40 Q1296,40 1368,40 Q1404,40 1404,52 Q1404,72 1404,52
-                   Q1404,40 1440,40 L1440,0 Z" />
-        </svg>
+      <div class="hero__media">
+        <img src="images/products/almonds-kesar.jpg"
+          alt="Melted kesar flavour chocolate covered roasted almonds box"
+          class="hero__image" width="800" height="1067" fetchpriority="high" decoding="sync">
       </div>
     </section>
 
-    <!-- ======================== MARQUEE ======================== -->
-    <section class="marquee" aria-label="Brand highlights">
-      <div class="marquee__track">
-        <div class="marquee__content">
-          <span>Share the Love</span>
-          <span class="marquee__dot" aria-hidden="true">&#9670;</span>
-          <span>Treat Yourself</span>
-          <span class="marquee__dot" aria-hidden="true">&#9670;</span>
-          <span>Gift a Smile</span>
-          <span class="marquee__dot" aria-hidden="true">&#9670;</span>
-          <span>Everyday Tasty</span>
-          <span class="marquee__dot" aria-hidden="true">&#9670;</span>
-          <span>Fun Flavours</span>
-          <span class="marquee__dot" aria-hidden="true">&#9670;</span>
-          <span>Chocolate for Everyone</span>
-          <span class="marquee__dot" aria-hidden="true">&#9670;</span>
-        </div>
-        <!-- Duplicate for seamless infinite loop -->
-        <div class="marquee__content" aria-hidden="true">
-          <span>Share the Love</span>
-          <span class="marquee__dot">&#9670;</span>
-          <span>Treat Yourself</span>
-          <span class="marquee__dot">&#9670;</span>
-          <span>Gift a Smile</span>
-          <span class="marquee__dot">&#9670;</span>
-          <span>Everyday Tasty</span>
-          <span class="marquee__dot">&#9670;</span>
-          <span>Fun Flavours</span>
-          <span class="marquee__dot">&#9670;</span>
-          <span>Chocolate for Everyone</span>
-          <span class="marquee__dot">&#9670;</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======================== FEATURED PRODUCTS ======================== -->
-    <section class="products" id="products">
-
-      <!-- Drip divider above products -->
-      <div class="drip-divider drip-divider--products" aria-hidden="true">
-        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,80 L0,40 Q120,40 240,40 Q300,40 300,22 Q300,0 300,22
-                   Q300,40 480,40 Q600,38 720,40 Q780,40 780,18 Q780,0 780,18
-                   Q780,40 960,40 Q1080,42 1200,40 Q1260,40 1260,25 Q1260,0 1260,25
-                   Q1260,40 1380,40 Q1410,40 1440,40 L1440,80 Z" />
-        </svg>
-      </div>
-
+    <!-- SECTION 2 — WHAT WE MAKE (light: cream) -->
+    <section class="section section--light" aria-labelledby="what-we-make-heading">
       <div class="container">
-        <div class="section-header reveal">
-          <h2 class="section-title">Our Chocolates</h2>
-          <p class="section-subtitle">Pick a favourite, or try them all &mdash; we won&rsquo;t judge</p>
+        <div class="section-head-centered">
+          <h2 id="what-we-make-heading">What we make</h2>
+          <p class="section-head-centered__sub">
+            Three families of chocolate. All made to be shared.
+          </p>
         </div>
 
-        <!-- Filter tabs -->
-        <div class="filter-tabs reveal" role="tablist" aria-label="Filter products by category">
-          <button class="filter-tab filter-tab--active" role="tab" aria-selected="true" data-category="all">All</button>
-          <button class="filter-tab" role="tab" aria-selected="false" data-category="nuts">Chocolate Covered
-            Nuts</button>
-          <button class="filter-tab" role="tab" aria-selected="false" data-category="bars">Bar Chocolate</button>
-          <button class="filter-tab" role="tab" aria-selected="false" data-category="wafer-balls">Wafer Balls</button>
-        </div>
-
-        <!-- Product cards rendered by JS from js/products.js -->
-        <div class="products__grid" id="products-grid" aria-live="polite"></div>
-      </div>
-    </section>
-
-    <!-- ======================== BRAND STORY ======================== -->
-    <section class="story" id="story">
-      <div class="container">
-        <div class="story__grid">
-
-          <div class="story__image-wrap reveal">
-            <img src="images/products/almonds-rose.jpg" alt="Melted rose flavour chocolate covered almonds box"
-              class="story__image" width="400" height="533" loading="lazy" decoding="async">
-          </div>
-
-          <div class="story__content reveal">
-            <h2 class="section-title">Why Melted?</h2>
-            <p class="story__text">
-              We started Melted because we believe everyone deserves
-              good chocolate &mdash; not just on special occasions, but
-              on a random Tuesday, after a long day, or just because
-              you feel like it.
+        <div class="categories-grid">
+          <article class="category-card">
+            <div class="category-card__img-wrap">
+              <img src="images/products/almonds-rose.jpg"
+                alt="Melted rose flavour chocolate covered roasted almonds"
+                class="category-card__img" width="400" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="category-card__title">Chocolate Covered Nuts</h3>
+            <p class="category-card__text">
+              Roasted almonds, cashews and raisins in chocolate, rose, kesar and orange flavours. 40 gm boxes.
             </p>
-            <p class="story__text story__text--secondary">
-              Our chocolates are made with real ingredients, fun
-              flavours, and prices that make sense. No fuss, no
-              pretending &mdash; just honest, delicious treats you
-              can share with anyone.
-            </p>
-            <a href="#" class="story__link">
-              Read Our Story
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="1.5"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </a>
-          </div>
+            <a href="products.html" class="category-card__link">See all &rarr;</a>
+          </article>
 
+          <article class="category-card category-card--bars">
+            <div class="category-card__img-wrap">
+              <img src="images/products/bar-65g-mix-nuts.jpg"
+                alt="Melted 65 gm mix nuts milk chocolate bar"
+                class="category-card__img" width="400" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="category-card__title">Bar Chocolate</h3>
+            <p class="category-card__text">
+              Milk chocolate bars in 25 gm and 65 gm sizes. Flavours include orange, oreo, wafer balls, almond and mix nuts.
+            </p>
+            <a href="products.html" class="category-card__link">See all &rarr;</a>
+          </article>
+
+          <article class="category-card category-card--wafer">
+            <div class="category-card__img-wrap">
+              <img src="images/products/wafer-balls-white.jpg"
+                alt="Melted white chocolate covered wafer balls"
+                class="category-card__img" width="400" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="category-card__title">Wafer Balls</h3>
+            <p class="category-card__text">
+              Chocolate covered wafer balls in white and dark. Light, crunchy and easy to share. 20 gm boxes.
+            </p>
+            <a href="products.html" class="category-card__link">See all &rarr;</a>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ======================== CONTACT + NEWSLETTER ======================== -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="contact__inner reveal">
-          <h2 class="section-title">Get in Touch</h2>
-          <p class="contact__text">
-            Want to place a bulk order, ask about flavours, or just say hi?
-            We&rsquo;d love to hear from you.
+    <!-- SECTION 3 — BRAND STORY (dark: cocoa-mid) -->
+    <section class="section section--dark-mid brand-story" id="brand-story" aria-labelledby="brand-story-heading">
+      <div class="brand-story__layout">
+        <div class="brand-story__content">
+          <span class="brand-story__bg-num" aria-hidden="true">01</span>
+          <span class="label-tag">Our Story</span>
+          <h2 class="brand-story__heading" id="brand-story-heading">Made in Rajkot. Made for you.</h2>
+          <p class="brand-story__p">
+            We wanted to make good chocolate accessible to everyone. Good flavour, honest ingredients, prices that let you share without thinking twice.
           </p>
-
-          <div class="contact__details">
-            <div class="contact__item">
-              <svg class="contact__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path
-                  d="M22 16.92V19.92C22 20.48 21.56 20.93 21 20.97C20.64 21 20.29 21 20 21C10.61 21 3 13.39 3 4C3 3.71 3 3.36 3.03 3C3.07 2.44 3.52 2 4.08 2H7.08C7.56 2 7.97 2.34 8.05 2.81C8.14 3.38 8.3 3.93 8.52 4.46L7.02 5.97C8.27 8.81 10.55 11.27 13.54 12.98L15.05 11.47C15.58 11.69 16.13 11.86 16.7 11.95C17.16 12.03 17.5 12.44 17.5 12.92"
-                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              <a href="tel:+918140000244">+91 81400 00244</a>
-            </div>
-            <div class="contact__item">
-              <svg class="contact__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M21 5L12 13L3 5M3 5V19H21V5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </svg>
-              <a href="mailto:vrajfoods01@gmail.com">vrajfoods01@gmail.com</a>
-            </div>
-            <div class="contact__item">
-              <svg class="contact__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path
-                  d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z"
-                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              <div>
-                <span>Shop No 21, Haridwar Habitat, Near Shyamal Sky life, 80 Feet Rd, Ambika Township, Rajkot, Gujarat
-                  360005</span>
-                <br>
-                <a href="https://maps.app.goo.gl/YGpKH35N9MbniUks7" target="_blank" rel="noopener noreferrer"
-                  class="footer__directions">Get directions &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- WhatsApp order button -->
-          <a href="https://wa.me/918140000244?text=Hi!%20I'd%20like%20to%20place%20an%20order." target="_blank"
-            rel="noopener noreferrer" class="btn btn--whatsapp">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path
-                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-              <path
-                d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.527 5.86L0 24l6.335-1.652A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.91 0-3.727-.5-5.33-1.377l-.38-.222-3.76.98.998-3.648-.248-.394A9.81 9.81 0 012.182 12c0-5.415 4.403-9.818 9.818-9.818S21.818 6.585 21.818 12 17.415 21.818 12 21.818z" />
-            </svg>
-            Order on WhatsApp
-          </a>
+          <p class="brand-story__p">
+            From chocolate covered almonds with kesar and rose to rich milk chocolate bars, every product in the Melted range is made to be picked up, gifted, or enjoyed on the go.
+          </p>
+          <a href="products.html" class="btn btn--secondary">Browse our chocolates</a>
         </div>
 
-        <!-- Newsletter sub-section -->
-        <div class="newsletter__inner reveal">
-          <h3 class="newsletter__heading">Stay in the Loop</h3>
-          <p class="newsletter__text">
-            Get updates on new flavours, special offers, and tasty news.
-          </p>
-          <form class="newsletter__form" id="newsletter-form" novalidate>
-            <!-- Honeypot field for bot protection (hidden via CSS class) -->
-            <input type="checkbox" name="botcheck" class="newsletter__honeypot" tabindex="-1" autocomplete="off">
-            <label for="newsletter-email" class="visually-hidden">Email address</label>
-            <input type="email" id="newsletter-email" name="email" class="newsletter__input"
-              placeholder="your@email.com" required autocomplete="email" aria-describedby="newsletter-status">
-            <button type="submit" class="btn btn--gold">Subscribe</button>
-          </form>
-          <p class="newsletter__privacy-note">
-            We'll only email you about new flavours and offers. Unsubscribe anytime.
-          </p>
-          <p class="newsletter__status" id="newsletter-status" role="status" aria-live="polite"></p>
+        <div class="brand-story__media">
+          <img src="images/products/almonds-chocolate.jpg"
+            alt="Melted chocolate covered roasted almonds"
+            class="brand-story__img" width="600" height="800" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
 
-          <div class="newsletter__secondary">
+    <!-- SECTION 4 — FEATURED PICK (light: cream-warm) -->
+    <section class="section section--light-warm" aria-labelledby="featured-pick-heading">
+      <div class="container">
+        <div class="featured-pick__grid">
+          <div class="featured-pick__img-wrap">
+            <img src="images/products/bar-65g-mix-nuts.jpg"
+              alt="Melted Mix Nuts Chocolate 65 gm bar"
+              class="featured-pick__img" width="600" height="800" loading="lazy" decoding="async">
+          </div>
+
+          <div class="featured-pick__content">
+            <span class="label-tag">Staff pick</span>
+            <h2 class="featured-pick__heading" id="featured-pick-heading">Mix Nuts Chocolate</h2>
+            <p class="featured-pick__desc">
+              Our 65 gm milk chocolate bar packed with almonds, cashews and pistachios. Rich, filling and hard to put down.
+            </p>
+            <p class="featured-pick__price">Rs 100</p>
+            <div class="featured-pick__actions">
+              <a href="https://wa.me/918140000244" target="_blank" rel="noopener noreferrer"
+                class="btn btn--primary">Order on WhatsApp</a>
+              <a href="products.html" class="btn btn--secondary">See all bars</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5 — STORE (dark: cocoa) -->
+    <section class="section section--dark" aria-labelledby="store-visit-heading">
+      <div class="container">
+        <div class="store-visit__inner">
+          <h2 class="store-visit__heading" id="store-visit-heading">Visit us in Rajkot</h2>
+          <address class="store-visit__address">
+            Melted&reg; &mdash; Chocolate House<br>
+            Shop No 21, Haridwar Habitat<br>
+            Near Shyamal Sky life, 80 Feet Rd<br>
+            Ambika Township, Rajkot, Gujarat 360005
+          </address>
+          <p class="store-visit__hours">Open daily: 9:00 AM &ndash; 9:30 PM</p>
+          <p class="store-visit__phone"><a href="tel:+918140000244">+91 81400 00244</a></p>
+          <div class="store-visit__actions">
+            <a href="https://maps.app.goo.gl/YGpKH35N9MbniUks7" target="_blank" rel="noopener noreferrer"
+              class="btn btn--primary">Get directions</a>
             <a href="https://wa.me/918140000244" target="_blank" rel="noopener noreferrer"
-              class="btn btn--whatsapp btn--sm">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <path
-                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-                <path
-                  d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.527 5.86L0 24l6.335-1.652A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.91 0-3.727-.5-5.33-1.377l-.38-.222-3.76.98.998-3.648-.248-.394A9.81 9.81 0 012.182 12c0-5.415 4.403-9.818 9.818-9.818S21.818 6.585 21.818 12 17.415 21.818 12 21.818z" />
-              </svg>
-              Get updates on WhatsApp
-            </a>
+              class="btn btn--secondary">Order on WhatsApp</a>
           </div>
         </div>
       </div>
@@ -329,14 +240,9 @@
 
   </main>
 
-  <!-- ============================================================
-       FOOTER
-       ============================================================ -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer__grid">
-
-        <!-- Brand -->
         <div class="footer__brand">
           <a href="index.html" class="footer__logo" aria-label="Melted — Home">
             <picture>
@@ -345,60 +251,43 @@
                 loading="lazy" decoding="async">
             </picture>
           </a>
-          <p class="footer__tagline">
-            Tasty chocolate for every mood and every moment.
-          </p>
+          <p class="footer__tagline">Rich flavours. Honest prices. Made in Rajkot.</p>
         </div>
 
-        <!-- Quick Links -->
         <div class="footer__links">
-          <h3 class="footer__heading">Quick Links</h3>
+          <h3 class="footer__heading">Quick links</h3>
           <ul role="list">
             <li><a href="index.html">Home</a></li>
             <li><a href="products.html">Products</a></li>
+            <li><a href="#brand-story">Our Story</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
           </ul>
         </div>
 
-        <!-- Contact Us -->
-        <div class="footer__contact">
-          <h3 class="footer__heading">Contact Us</h3>
-          <ul role="list">
-            <li><a href="tel:+918140000244">+91 81400 00244</a></li>
-            <li><a href="mailto:vrajfoods01@gmail.com">vrajfoods01@gmail.com</a></li>
-            <li><a href="https://wa.me/918140000244" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
-            <li>Shop No 21, Haridwar Habitat, Near Shyamal Sky life, 80 Feet Rd, Ambika Township, Rajkot, Gujarat 360005
-            </li>
-            <li><a href="https://maps.app.goo.gl/YGpKH35N9MbniUks7" target="_blank" rel="noopener noreferrer"
-                class="footer__directions">Get directions &rarr;</a></li>
-          </ul>
-        </div>
-
-        <!-- Follow Us -->
-        <div class="footer__social">
-          <h3 class="footer__heading">Follow Us</h3>
+        <div class="footer__find">
+          <h3 class="footer__heading">Find us</h3>
+          <p class="footer__address">
+            Shop No 21, Haridwar Habitat, 80 Feet Rd, Ambika Township, Rajkot, Gujarat 360005
+          </p>
           <div class="footer__social-icons">
             <a href="https://www.instagram.com/melted24" target="_blank" rel="noopener noreferrer"
               aria-label="Instagram">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5" />
                 <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5" />
                 <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
               </svg>
             </a>
             <a href="https://x.com/vraj_foods" target="_blank" rel="noopener noreferrer" aria-label="X">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M4 4L10.5 12.5L4 20H6L11.5 13.8L16 20H20L13.2 11L19.3 4H17.3L12.2 9.7L8 4H4Z"
                   stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
               </svg>
             </a>
             <a href="https://www.facebook.com/share/1JFQ9zrTHv/" target="_blank" rel="noopener noreferrer"
               aria-label="Facebook">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path
                   d="M18 2H15C13.3431 2 12 3.34315 12 5V8H9V12H12V22H16V12H19L20 8H16V5C16 4.44772 16.4477 4 17 4H20V2H18Z"
                   stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -406,32 +295,15 @@
             </a>
           </div>
         </div>
-
       </div>
 
       <div class="footer__bottom">
-        <p>&copy; 2026 Melted. All rights reserved. &middot; <a href="privacy.html" class="footer__privacy-link">Privacy
-            Policy</a></p>
+        <p>&copy; 2024 Melted&reg; Chocolates. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-  <!-- Floating WhatsApp button (mobile only) -->
-  <a href="https://wa.me/918140000244" target="_blank" rel="noopener noreferrer" class="floating-whatsapp"
-    aria-label="Order on WhatsApp">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path
-        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
-      <path
-        d="M12 0C5.373 0 0 5.373 0 12c0 2.127.555 4.126 1.527 5.86L0 24l6.335-1.652A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.91 0-3.727-.5-5.33-1.377l-.38-.222-3.76.98.998-3.648-.248-.394A9.81 9.81 0 012.182 12c0-5.415 4.403-9.818 9.818-9.818S21.818 6.585 21.818 12 21.818z" />
-    </svg>
-    <span class="floating-whatsapp__label">Order</span>
-  </a>
-
-  <!-- JavaScript -->
-  <script src="js/products.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/newsletter.js"></script>
 </body>
 
 </html>
